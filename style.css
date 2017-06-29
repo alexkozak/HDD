@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font: 12px Tahoma;
+
+}
+
+.wall {
+    width: 1000px;
+    background-color: #d9005d;
+
+    margin-right: auto;
+    margin-left: auto;
+}
