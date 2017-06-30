@@ -1,13 +1,181 @@
-body{
+body {
     text-align: center;
     font: 12px Tahoma;
-
+    padding: 0px;
+    margin: 0;
+    /*todo выбрать цвет шрифта*/
 }
 
-.wall {
+/*
+на доске будут располагаться три области:
+1. head
+2. services
+3. main
+*/
+.board {
     width: 1000px;
-    background-color: #d9005d;
-
     margin-right: auto;
     margin-left: auto;
+    position: relative;
+    /*todo удалить потом*/
 }
+
+.head {
+    position: relative;
+    height: 100px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+    width: 106px;
+    height: 140px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.vert_align_block {
+    height: 140px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.company_description {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 400px;
+    width: 400px;
+    height: 140px;
+    text-align: left;
+    line-height: 18px;
+}
+
+.contacts{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 230px;
+}
+
+.mail{
+    font-size: 12px;
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 230px;
+}
+
+.phone_number{
+    text-align: right;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    width: 230px;
+}
+
+.phone_number2{
+    text-align: right;
+    font-size: 18px;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    width: 230px;
+}
+
+.services {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.menu {
+    text-align: left;
+    padding: 0;
+    margin: 0 0 6px 0;
+}
+
+
+.main_menu {
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+    overflow: hidden;
+    height: 25px;
+    background: #d40911;
+}
+
+.main_menu ul {
+    padding: 0;
+    margin: 0 0 0 25px;
+}
+
+.main_menu ul li {
+    background: transparent;
+    display: block;
+    float: left;
+    padding: 0 16px 0 0; /*настраивается расстояние между кнопками*/
+    margin: 0;
+
+
+}
+
+.main_menu ul li a {
+    display: block;
+    padding: 5px 10px 6px 10px;
+    margin: 0;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main_menu ul li a:active, .main_menu ul li a:hover{
+    background: #000000;
+    color: white;
+}
+
+.picture{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+.color2 {
+    color: #797979;
+}
+
+.color3{
+    color: white;
+    font-size: 16px;
+}
+
+.color4{
+    color: #E01A21;
+}
+
+a {
+    border: 0;
+    text-decoration: none; /*убирает подчеркивание ссылок*/
+
+}
+
+
+
+
+
+
+
