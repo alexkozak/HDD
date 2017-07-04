@@ -121,7 +121,7 @@ body {
     background: transparent;
     display: block;
     float: left;
-    padding: 0 16px 0 0; /*настраивается расстояние между кнопками*/
+    padding: 0 54px 0 0; /*настраивается расстояние между кнопками*/
     margin: 0;
 
 
@@ -148,26 +148,68 @@ body {
     overflow: hidden;
 }
 
+
+
 .main{
-    margin: 0px 0 0px 0;
     position: relative;
     overflow: hidden;
-    width: 800px;
+    width: 1000px;
     text-align: left;
 
-    border: 1px solid;
 
-    margin-left: 100px;
 }
 
-.container{
+.content{
     padding: 0;
-    margin: 0 0 0 0;
     overflow: hidden;
     position: relative;
-    width: 1000px;
+    color: #666666;
+
+    margin: 0px 200px 15px 200px;
 }
 
+.line_separator_small{
+
+    margin: 40px 100px 40px 100px;
+    border-top: 2px solid;
+    border-color: #666666;
+}
+
+.line_separator_large{
+    border-top: 1px solid;
+    border-color: #666666;
+}
+
+
+.footer{
+    padding: 0 0 10px 0;
+    text-align: left;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts2{
+    color: #333;
+    font-size: 11px;
+    position: relative;
+    height: 100px;
+}
+
+.table{
+    border-collapse: collapse
+}
+
+
+
+
+h2{
+    color: #009bd3;
+    text-align: center;
+
+
+
+}
 
 
 
